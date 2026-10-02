@@ -9,17 +9,17 @@ public class Solution {
 
     public double average(double t1, double t2, double t3, double t4) {
         // remove 0.0 and return your answer
-        return 0.0;
+        return average(t1, t2, t3, t4);
     }
 
     public int roundAverage(double average) {
         // remove 0 and return your answer
-        return 0;
+        return roundAverage(average);
     }
 
     public boolean isPassing(int roundedAverage) {
         // remove false and return your answer
-        return false;
+        return isPassing(roundedAverage);
     }
 
     /*
@@ -28,13 +28,13 @@ public class Solution {
 
     public double totalStock(int shares, double price) {
         // remove 0.0 and return your answer
-        return 0.0;
+        return totalStock(shares, price);
     }
 
 
     public int roundValueChange(double totalStock) {
         // remove 0 and return your answer
-        return 0;
+        return roundValueChange(totalStock);
     }
 
     /*
@@ -43,7 +43,7 @@ public class Solution {
    
     public double adjustDigits(double userDouble) {
         // remove 0.0 and return your answer
-        return 0.0;
+        return adjustDigits(userDouble);
     }
 
     public static void main(String[] args) {
